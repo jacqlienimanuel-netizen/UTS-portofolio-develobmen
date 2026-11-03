@@ -1,0 +1,7 @@
+/* Lightweight responsive grid utility for Kantinku UTS */
+.container{width:min(1120px,calc(100% - 36px));margin-inline:auto}
+.row{display:flex;flex-wrap:wrap;margin-inline:-12px}
+[class^="col-"],[class*=" col-"]{padding:12px;min-width:0}
+.col-12{width:100%}.col-6{width:50%}.col-4{width:33.333%}.col-3{width:25%}
+@media(max-width:750px){.col-md-12{width:100%}.col-md-6{width:50%}}
+@media(max-width:520px){.col-6,.col-4,.col-3{width:100%}}
